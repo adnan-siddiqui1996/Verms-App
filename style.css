@@ -1,0 +1,1045 @@
+*{
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.topBar{
+    height: 40px;
+}
+.col1{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+.navbar-brand img{
+    width: 250px;
+    height: 60px;
+    margin-left: 10px;
+}
+.navbar-nav{
+    margin-left: 180px;
+}
+ul a:link{
+    text-decoration: none;
+}
+#home{
+    min-width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #343A40;
+    border-radius: 20px;
+    font-size: 13pt;
+    font-weight: 500;
+    color: whitesmoke;
+}
+#extraHome{
+    min-width: 100px;
+    height: 40px;
+    line-height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 13pt;
+    font-weight: 500;
+    color: #343A40;
+}
+#extraFeature, #extraPricing, #extraAbout, #extraContactUs, #extraLogin, #extraSignUp{
+    min-width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #343A40;
+    border-radius: 20px;
+    font-size: 13pt;
+    font-weight: 500;
+    color: whitesmoke;
+} 
+#signUp{
+    min-width: 120px;
+    height: 40px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #343A40;
+    font-size: 13pt;
+    font-weight: 500;
+    color: #343A40;
+}
+#signUp:hover{
+    background-color: #343A40;
+    transition: .6s;
+    color: whitesmoke;
+}
+#feature, #pricing, #about, #contactUs, #login{
+    min-width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 13pt;
+    font-weight: 500;
+    color: #343A40;
+}
+#feature:hover, #pricing:hover, #about:hover, #contactUs:hover, #login:hover, #extraHome:hover{
+    background-color: #343A40;
+    transition: .6s;
+    color: whitesmoke;
+}
+.mainPic{
+    height: 800px;
+    width: 100%;
+    margin-left: 0px;
+}
+.headIntro{
+    text-align: center;
+    color: #343A40;
+}
+.headIntro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.headIntro img, .headIntro h2{
+    display: inline;
+}
+.headIntro img{
+    width: 80px;
+    height: 50px;
+    margin-top: -15px;
+}
+.paraIntro{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: gray;
+    font-size: 12pt;
+    line-height: 30px;
+}
+.cardReceiving{
+    background-image: url("Slider 3.jpg");
+    height: 800px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.cardBg{
+    height: 900px;
+    margin-top: 100px;
+}
+.card1{
+    box-shadow: 0 0 20px gray;
+    margin-left: 80px;
+}
+.card1 img{
+    width: 100%;
+    height: 500px;
+}
+.howItWork{
+    margin-top: -100px;
+}
+.howItWork .rowFirst{
+    margin-top: 80px;
+}
+#verticalLine{
+    margin-top: -50px;
+    margin-left: 164px;
+    width: 2px;
+    height: 200px;
+    background-color: gainsboro;
+}   
+.numbers{
+    margin-top: 30px;
+    margin-left: 150px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: 14pt;
+    padding-left: 10px;
+}
+.numbers p{
+    margin-top: -4px;
+}
+.forLogo img{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin-top: 0px;
+    margin-left: 115px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+.forH2{
+    text-align: left;
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.usedBy h6{
+    margin-top: 20px;
+    margin-left: -60px;
+    color: black;
+    text-align: center;
+}
+.usedImg{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ced1d9;
+}
+.usedImg img{
+    height: 60px;
+    width: 60px;
+}
+
+/* Login Form */
+.loginForm{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    height: 410px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px grey;
+}
+.loginChild{
+    margin-top: 15px;
+    height: 380px;
+    border: 5px solid #222222;
+}
+.loginChild input{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+	font-family: sans-serif;
+	font-size: 12pt;
+    border: 1px solid gray;
+    background: none;
+    color: #343A40;
+} 
+.logoLogin{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.logoLogin img{
+    width: 90%;
+    height: 100px;
+}
+#em_login{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+#pswd_login{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+#lbtn{
+    outline: none;
+    background: none;
+	color: gray;
+	width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: 2px solid grey;
+	font-size: 18pt;
+	border-radius: 20px;
+}
+#lbtn:hover{
+    background: grey;
+    color: whitesmoke;
+    transition: .6s;
+}
+.forget{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    text-align: center;
+}
+.forget a{
+    color: whitesmoke;
+}
+
+/* Sign Up Form */
+.signParent{
+    height: 750px;
+}
+.signBg{
+    position: absolute;
+    height: 550px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 200px;
+    box-shadow: 0 0 20px silver;
+}
+.signChild{
+    margin-top: 10px;
+    height: 530px;
+    border: 5px solid #343A40;   
+}
+.signHeading{
+    background-color: #343A40;
+    color: whitesmoke;
+    height: 50px;
+    padding-top: 7px;
+    text-align: center;
+    margin-top: 10px;
+}
+.signChild input{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+	font-family: sans-serif;
+    font-size: 12pt;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    color: #343A40;
+}
+.signChild select{
+    width: 95%;
+    height: 40px;
+    padding-left: 20px;
+	font-family: sans-serif;
+	font-size: 12pt;
+    border: 1px solid gray;
+    background: none;
+    color: gray;
+}
+select option{
+    color: grey;
+}
+#sn_Name, #sn_Email, #sn_Phone, #sn_Referral{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#sn_Company, #sn_Country, #sn_Password, #sn_Category{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+#sbtn{
+    outline: none;
+    background: none;
+	color: grey;
+	width: 30%;
+    height: 45px;
+    margin-left: 35%;
+    margin-top: 10px;
+    border: 2px solid grey;
+	font-size: 18pt;
+	border-radius: 20px;
+}
+#sbtn:hover{
+    background: gray;
+    color: whitesmoke;
+    transition: .6s;
+}
+label, #sn_Term{
+    margin-top: 20px;
+    color: gray;
+}
+#sn_Term{
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+}
+.goTop{
+    position: fixed;
+    width: 60px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 32pt;
+    background-color: rgba(50,50,50,.1);
+}
+.goTop:hover{
+    background-color: rgba(20, 20, 20, .5);
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Pricing */
+.paraPricing{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 12pt;
+    line-height: 30px;
+}
+.pricingBg{
+    margin-top: 30px;
+    height: 400px;
+    text-align: center;
+}
+.pricingBg .col1{
+    border: 3px solid gray;
+    border-radius: 20px;
+    color: gray;
+    width: 300px;
+    height: 320px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.pricingBg h2{
+    margin-bottom: 50px;
+}
+.pricingBg h5{
+    color: #9b9e9c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pricingBg .col1st{
+    margin-left: 200px;
+}
+#btnPrice{
+    outline: none;
+    background: none;
+	color: grey;
+	width: 80%;
+    height: 45px;
+    margin-top: 20px;
+    border: 2px solid grey;
+	font-size: 18pt;
+	border-radius: 20px;
+    font-weight: bold;
+}
+#btnPrice:hover{
+    background: gray;
+    color: whitesmoke;
+    transition: .6s;
+}
+.tick{
+    font-size: 15pt;
+    color: white;
+    background-color: limegreen;
+    height: 20px;
+    border-radius: 50px;
+}
+.cross{
+    font-size: 15pt;
+    color: white;
+    background-color: gray;
+    border-radius: 80%; 
+}
+.detailHead{
+    height: 60px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.moreDetailFree{
+    background-color: #F7FAFB;
+    border: 1px solid silver;
+    height: 410px;
+}
+.moreDetailStandard{
+    background-color: #F7FAFB;
+    border: 1px solid silver;
+    height: 460px;
+}
+.moreDetailFree .row1, .moreDetailStandard .row1{
+    border: none;
+    padding-top: 10px;
+    border-top: 1px solid #72b1f2;
+    margin-bottom: 10px;
+}
+.row1 i, .row1 p{
+    display: inline;
+}
+
+/* Contact Us */
+.contactBg{
+    background-image: url("Contactus_BG 2.jpg");
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.contactBg h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #FFF;
+    color: none;
+    font-weight: 900;
+    font-family: arial;
+    font-size: 3em;
+    padding: 16px;
+    margin: 0;
+    mix-blend-mode: screen;
+    opacity: .9;
+    border-radius: 8px;
+    box-shadow: 0 0 16px gray, 0 0 32px gray;
+}
+.contactBg p{
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    font-size: 16pt;
+    text-align: center;
+    color: whitesmoke;
+}
+.mailBg p{
+    font-style: italic;
+    font-size: 14pt;
+}
+.socialContact{
+    margin-left: 45px;
+}
+.fbContact, .twContact, .gglContact, .instaContact{
+    height: 200px;
+    box-shadow: 5px 5px 15px gray;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.fbContact i, .twContact i, .gglContact i, .instaContact i{
+    color: whitesmoke;
+    font-size: 28pt;
+    margin-top: 70px;
+}
+.fbContact p, .twContact p, .gglContact p, .instaContact p{
+    font-style: normal;
+}
+.fbContact{
+    background-color: #46629E;
+}
+.twContact{
+    background-color: #1DA1F2;
+}
+.gglContact{
+    background-color: #E13719;
+}
+.instaContact{
+    background-color: #813DB7;
+}
+.contactForm input, .contactForm textarea{
+    border: 0;
+    width: 84%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 32px;
+    padding: 20px;
+}
+.contactForm input{
+    height: 40px;
+}
+.contactForm input:focus, .contactForm textarea:focus{
+    box-shadow: 0 0 12px gray;
+}
+#submitBtn{
+    background-color: gray;
+    margin-left: 310px;
+    color: whitesmoke;
+    border: none;
+    font-size: 18pt;
+    margin-top: -22px;
+    padding: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+#submitBtn:hover{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    transition: .6s;
+}
+/* ABOUT US */
+.ourTeam{
+    margin-top: 100px;
+}
+.aboutPara{
+    padding: 60px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 12px silver;
+}
+.aboutPara p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 11pt;
+    text-align: justify;
+}
+.founder img{
+    margin-left: 80px;
+    height: 450px;
+    box-shadow: 2px 2px 12px silver; 
+}
+.founder p{
+    margin-top: 10px;
+    margin-left: 80px;
+    color: gray;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ourTeamPhoto img{
+    height: 200px;
+    width: 190px;
+    margin-left: -15px;
+}
+.teamPara{
+    color: #858381;
+    font-size: 12pt;
+    margin-top: -5px;
+}
+.teamPara2{
+    color: #5c5a57;
+    text-align: justify;
+    padding-right: 25px;
+}
+/* Features Page */
+.featureBg{
+    height: 2000px;
+}
+.featureDiv{
+    margin-top: 70px;
+    background-color: #ebebeb;
+    height: 450px;
+    box-shadow: 0 0 12px gray;
+}
+.featureImg img{
+    margin-top: 65px;
+    margin-left: 50px;
+    border-radius: 100%;
+    height: 310px;
+    width: 90%;
+}
+.featureText h2{
+    margin-top: 70px;
+    margin-left: 90px;
+    text-align: left;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.featureText p{
+    margin-top: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    line-height: 30px;
+    text-align: justify;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.featureDivEven{
+    margin-top: 70px;
+    background-color: white;
+    height: 450px;
+    box-shadow: 0 0 12px gray;
+}
+.featureImgEven img{
+    margin-top: 65px;
+    margin-left: 10px;
+    border-radius: 100%;
+    height: 310px;
+    width: 90%;
+    box-shadow: 0 0 12px gray;
+}
+.featureTextEven h2{
+    margin-top: 70px;
+    margin-left: 50px;
+    text-align: left;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.featureTextEven p{
+    margin-top: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    line-height: 30px;
+    text-align: justify;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FOOTER */
+.loginFooter{
+    height: 400px;
+    background-color: #222222;
+    text-align: left;
+}
+.loginFooter .row i, .loginFooter .row p{
+    text-align: left;
+}
+.inline{
+    display: inline;
+    margin-top: 100px;
+}
+.organizationFooter{
+    padding-left: 50px;
+}
+.organizationFooter h4{
+    text-align: left;
+}
+.organizationFooter p{
+    line-height: 20px;
+}
+#firstP{
+    margin-top: 50px;
+}
+.footerSocialIcon{
+    text-align: left;
+}
+.iconSocialFooterFb{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.iconSocialFooter{
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 60%;
+}
+.iconSocialFooter:hover{
+    background-color: white;
+    color: black;
+    transition: .6s;
+}
+#logoFooter{
+    display: block;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.copyWrite{
+    background-color: silver;
+    height: 40px;
+    color: black;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.copyWrite p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.copyWrite i, .copyWrite p{
+    display: inline;
+    font-size: 14pt;
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .navbar-nav{
+        margin-left: 0px;       
+    }
+    #feature, #pricing, #about, #contactUs, #login, #home, #signUp, #extraFeature, #extraPricing, #extraAbout, #extraContactUs, #extraLogin, #extraHome, #extraSignUp{
+        text-align: left;
+        border-radius: 0px;       
+    }
+    #feature a, #pricing a, #about a, #contactUs a, #login a, #home a, #signUp a, #extraFeature a, #extraPricing a, #extraAbout a, #extraContactUs a, #extraLogin a, #extraHome a, #extraSignUp a{
+        margin-left: 20px;
+    }
+    .headIntro img{
+        width: 40px;
+        height: 30px;
+    }
+    .headIntro h2{
+        font-size: 20pt;
+    }
+    .paraIntro{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .vermPara .paraIntro{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .mainPic{
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .cardReceiving{
+        height: 500px;
+        background: url("Slider 3.jpg") fixed 60%;
+    }
+    .cardBg{
+        height: 2200px;
+    }
+    .card1{
+        width: 300px;
+        margin-left: 28px;
+        margin-top: 50px;
+    }
+    .howItWork{
+        margin-top: 30px;
+    }
+    #verticalLine{
+        margin-left: 34px;
+        height: 300px;
+    }
+    .numbers{
+        margin-left: 20px;
+    }
+    .forLogo img{
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        margin-top: -270px;
+        margin-left: -20px;
+        border-radius: 50%;
+        background-color: gainsboro;
+    }
+    .forH2{
+        margin-top: -180px;
+        font-size: 14pt;
+        margin-left: 40px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .usedBy h2{
+        font-size: 18pt;
+    }
+    .usedBy h6{
+        margin-top: 20px;
+        margin-left: 0px;
+        color: black;
+        text-align: center;
+        font-size: 18pt;
+    }
+    .usedImg{
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+
+    /* Login Form */
+    .loginForm{
+        margin-left: 15px;
+        width: 300px;
+    }
+
+    /* Sign Up Form */
+    .signParent{
+        height: 1200px;
+    }
+    .signBg{
+        height: 1000px;
+        margin-left: 15px;
+        width: 300px;
+    }
+    .signChild{
+        margin-top: 10px;
+        height: 980px;
+    }
+    #sbtn{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    label, #sn_Term{
+        display: inline;
+        margin-top: 40px;
+    }
+    #sn_Term{   
+        margin-left: 5px;
+    }
+    #sn_Name, #sn_Email, #sn_Phone, #sn_Referral, #sn_Company, #sn_Country, #sn_Password, #sn_Category{
+        margin-left: 5px;
+    }
+    .signChild .row .col2{
+        margin-left: 9px;
+    }
+    .signChild .row .col1{
+        width: 97%;
+    }
+    /* PRICING PAGE */
+    .pricingBg{
+        height: 1450px;
+    }
+    .pricingBg .col1{
+        width: 230px;
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+    .moreDetailFree{
+        height: 810px;
+    }
+    .moreDetailStandard{
+        height: 910px;
+    }
+    .moreDetailFree .row1, .moreDetailStandard .row1{
+        border: none;
+        margin-bottom: 0px;
+        height: 100px;
+    }
+    .moreDetailFree .col4, .moreDetailStandard .col4{
+        height: 50px;
+        border: none;
+        padding-top: 12px;
+        border-top: 1px solid #72b1f2;
+    }
+    #btnPrice{
+        margin-top: 40px;
+    }
+    .detailHead{
+        height: 70px;
+    }
+
+    /* Contact Us */
+    .contactBg{
+        height: 400px;
+        background-size: cover;
+    }
+    .contactBg h1{
+        top: 40%;
+        left: 50%;
+        font-size: 16pt;
+        width: 53%;
+        text-align: center;
+    }
+    .contactBg p{
+        top: 50%;
+        left: 3%;
+        font-size: 12pt;
+    }
+    #leaveMail{
+        font-size: 18pt;
+    }
+    .fbContact, .twContact, .gglContact, .instaContact{
+        margin-left: 33px;
+        height: 180px;
+        width: 260px;
+    }
+    .socialContact{
+        margin-left: 0px;
+    }
+    .contactForm input, .contactForm textarea{
+        margin-left: 30px;
+    }
+    .fbContact i, .twContact i, .gglContact i, .instaContact i{
+        margin-top: 55px;
+    }
+    #submitBtn{
+        margin-left: 90px;
+        margin-bottom: 100px;
+    }
+    /* ABOUT PAGE */
+    .aboutPara{
+        margin-top: 30px;
+        padding: 40px;
+        margin-left: 15px;
+        width: 330px;
+    }
+    .aboutPara p{
+        margin-top: 30px;
+        font-size: 12pt;
+    }
+    .founder img{
+        margin-top: 35px;
+        margin-left: 5px;
+        height: 300px;
+        width: 230px; 
+    }
+    .founder p{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .ourTeam{
+        margin-top: 90px;
+    }
+    .ourTeam p{
+        margin-top: 10px;
+    }
+    .ourTeamPhoto img{
+        height: 200px;
+        width: 190px;
+        margin-left: 75px;
+    }
+    .teamName{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -50px;
+    }
+    .teamPara{
+        text-align: center;
+        margin-left: -10px;
+    }
+    .teamPara2{
+        text-align: center;
+    }
+
+    /* Features Page */
+    .featureBg{
+        height: 4300px;
+    }
+    .featureBg h2{
+        font-size: 16pt;
+    }
+    .featureDiv, .featureDivEven{
+        margin-left: 2px;
+        margin-top: 70px;
+        height: 1000px;
+        width: 320px;
+    }
+    .featureImg img{
+        margin-left: 0px;
+        height: 260px;
+        width: 80%;
+    }
+    .featureText h2{
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    .featureText p, .featureTextEven p{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .featureImgEven img{
+        margin-left: 0px;
+        margin-top: -30px;
+        height: 260px;
+        width: 80%;
+    }
+    .featureTextEven h2{
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20pt;
+    }
+        
+    /* FOOTER */
+    .loginFooter{
+        height: 1450px;
+        text-align: center;
+    }
+    .organizationFooter h4{
+        margin-top: 50px;
+        margin-left: -40px;
+        text-align: center;
+    }
+    .organizationFooter p{
+        line-height: 20px;
+        margin-left: -40px;
+        text-align: center !important;
+    }
+    .footerSocialIcon{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .iconSocialFooterFb{
+        margin-left: 10px;
+    }
+    #logoFooter{
+        margin-left: 60px;
+    }
+    .copyWrite i{
+        margin-left: -15px;
+    }
+}
